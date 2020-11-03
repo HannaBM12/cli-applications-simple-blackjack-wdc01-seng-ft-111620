@@ -62,7 +62,7 @@ def runner
   display_card_total(total)
   number= total
   end
-  
+
   end_game(number)
   
 end
