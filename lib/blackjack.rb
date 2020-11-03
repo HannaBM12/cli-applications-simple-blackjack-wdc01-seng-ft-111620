@@ -63,7 +63,7 @@ def runner
   number= total
   end
 
-  binding.pry
   end_game(number)
+  binding.pry
 
 end
