@@ -53,7 +53,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-require "pry"
+# require "pry"
 def runner
   welcome
   number = initial_round
@@ -64,6 +64,6 @@ def runner
   end
 
   end_game(number)
-  binding.pry
+  # binding.pry
 
 end
