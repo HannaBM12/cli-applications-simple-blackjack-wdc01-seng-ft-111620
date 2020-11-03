@@ -60,8 +60,8 @@ def runner
   until number > 21 do
   total = hit?(number)
   display_card_total(total)
-  binding.pry
   number= total
+  binding.pry
   end
 
   end_game(number)
