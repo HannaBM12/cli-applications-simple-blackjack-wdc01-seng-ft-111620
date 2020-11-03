@@ -57,11 +57,11 @@ require "pry"
 def runner
   welcome
   number = initial_round
-  binding.pry
   until number > 21 do
   total = hits?(number)
   display_card_total(total)
   number= total
+  binding.pry
   end
 
   end_game(number)
